@@ -1,4 +1,4 @@
-# DEB
+# DEAB
 Development Environment Auto Build
 
 开发环境自动搭建
