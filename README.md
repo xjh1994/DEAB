@@ -22,7 +22,7 @@ sudo chmod +x ./android.sh
 
 // 等待控制台下载文件
 
-// 依次安装JDK、JRE、AndroidStudio、Genymotion
+// 依次安装JDK、JRE、AndroidStudio、Genymotion，配置环境变量
 
 // 解压sdk.zip、gradle.zip
 
@@ -32,10 +32,6 @@ sudo chmod +x ./android.sh
 
 ```
 
-![sdk](images/sdk.jpeg)
-
-![gradle](images/gradle.jpeg)
-
 ##### 环境变量设置
 
 设置JAVA_HOME `vim ~/.bash_profile`
@@ -44,27 +40,33 @@ sudo chmod +x ./android.sh
 
 保存生效 `source ~/.bash_profile`
 
+##### AndroidStudio配置
+
+![sdk](images/sdk.jpeg)
+
+![gradle](images/gradle.jpeg)
+
 ### 2、AndroidStudio（For Windows）
 
 #### 下载源代码到本地
 
 #### **以管理员身份**运行 `android.bat`
 
-（下载文件保存在C盘下，保证C盘有足够空间（1G），安装完后可以删除）
+（下载文件默认保存在C盘下，保证C盘有足够空间（1G），安装完后可以删除）
 
 #### 安装JDK
 
 1、在系统变量里点击新建，变量名填写 `JAVA_HOME` ，变量值填写JDK的安装路径，在这里就填写“你的JDK安装路径”（如 `C:\Program Files\Java\jdk1.6.0_26` ）了。
 
-![JAVA_HOME](images/env_window1.jpg)
+![JAVA_HOME](images/env_windows1.jpg)
 
 2、在系统变量里点击新建变量名填写 `CLASSPATH` ，变量值填写 `.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar` 。注意不要忘记前面的点和中间的分号。
 
-![JAVA_HOME](images/env_window2.jpg)
+![JAVA_HOME](images/env_windows2.jpg)
 
 3、在系统变量里找到Path变量，这是系统自带的，不用新建。双击 `Path` ，由于原来的变量值已经存在，故应在已有的变量后加上 `;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin` 。注意前面的分号。
 
-![JAVA_HOME](images/env_window3.jpg)
+![JAVA_HOME](images/env_windows3.jpg)
 
 4、输入 `java` 和 `javac` 测试是否配置成功
 
