@@ -32,6 +32,10 @@ sudo chmod +x ./android.sh
 
 ```
 
+[sdk](images/sdk.jpeg)
+
+[gradle](images/gradle.jpeg)
+
 ##### 环境变量设置
 
 设置JAVA_HOME `vim ~/.bash_profile`
