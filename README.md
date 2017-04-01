@@ -7,6 +7,8 @@ Development Environment Auto Build
 
 ## Android
 
+> JDK-1.8 + AndroidStudio-2.3.0 + Gradle-3.1.4 + Genymotion-2.8.1（均为64位）
+
 ### 1、AndroidStudio（For Mac）
 
 #### Usage:
