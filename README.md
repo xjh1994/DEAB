@@ -32,9 +32,9 @@ sudo chmod +x ./android.sh
 
 ```
 
-[sdk](images/sdk.jpeg)
+![sdk](images/sdk.jpeg)
 
-[gradle](images/gradle.jpeg)
+![gradle](images/gradle.jpeg)
 
 ##### 环境变量设置
 
